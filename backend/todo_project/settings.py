@@ -67,7 +67,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    'localhost:3000/'
+    'localhost:3000'
+    #'https://house-estimator-69.herokuapp.com/api/zestimates/'
 ]
 
 ROOT_URLCONF = 'todo_project.urls'
